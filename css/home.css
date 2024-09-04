@@ -7,7 +7,7 @@
 
 /* Top Header Start */
 .topheader{
-    background-color: rgb(196, 196, 196);
+    background-color: rgb(233, 233, 233);
     padding: 1rem 6rem;
 }
 .left-topheader{
@@ -76,7 +76,11 @@
     display: flex;
     justify-content: space-between;
 }
-
+@media screen and (max-width: 768px){
+    .navbar{
+        display: none;
+    }
+}
 /* Nav Section */
 .bottom-navbar{
     margin-top: 1.5rem;
@@ -119,3 +123,225 @@
 }
 
 /* Navbar End */
+
+
+/* Banner Start */
+.banner{
+    padding: 2rem 3rem 0rem 3rem;
+    background-color: #f7f5f5;
+}
+.slideshow-container {
+  position: relative;
+  margin: auto;  
+}
+
+.numbertext {
+  color: #000000;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  justify-content: center;
+  margin-left: 6%;
+  top: 10%;
+}
+.numbertext h1{
+    margin-bottom: 2rem;
+    font-size: 40px;
+}
+.numbertext h4{
+    margin-bottom: 2rem;
+    font-size: 30px;
+}
+.numbertext i{
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    font-size: 17px;
+    color: #000000;
+}
+.numbertext button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #7fbb01;
+    color: #fff;
+    border: none;
+    margin-top: 2rem;
+}
+@media screen and (max-width: 320px){
+    .numbertext {
+        color: #000000;
+        font-size: 8px;
+        padding: 6px 10px;
+        position: absolute;
+        justify-content: center;
+        margin-left: 4%;
+        top: 10%;
+      }
+      .numbertext h1{
+          margin-bottom: 1rem;
+          font-size: 20px;
+      }
+      .numbertext h4{
+          margin-bottom: 1rem;
+          font-size: 15px;
+      }
+      .numbertext i{
+          margin-bottom: 1rem;
+          margin-right: 1rem;
+          font-size: 10px;
+          color: #000000;
+      }
+}
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+/* Banner End */
+
+
+
+/* Category Start */
+.category{
+    background-color: #f7f5f5;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.100);
+}
+.category-container{
+    padding: 3rem;
+}
+.images-category{
+    padding: 1rem;
+    background-color: #ffffff;
+}
+.top-category{
+    background-color: #e7e7e7;
+    height: 30px;
+}
+.images-category img{
+    border: #dddddd 1px solid;
+    border-radius: 50%;
+    padding: 3px;
+    width: 13%;
+    margin-right: 40px;
+}
+.images-category img:hover{
+    border: #7fbb01 2px solid;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
+.top-category button{
+    padding: 7px;
+    letter-spacing: 1px;
+    background-color: #7fbb01;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    font-size: 13px;
+}
+/* Category End */
+
+
+/* Home Banner Start */
+.home-banner-container{
+    background-color: #f7f5f5;
+    display: flex;
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+}
+.left-home-banner{
+    width: 50%;
+}
+.right-home-banner{
+    width: 50%;
+}
+/* Home Banner End */
+
+/* Full Banner Start */
+.bg-fullbanner img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+.fullbanner{
+    margin-bottom: 8%;
+}
+.left-fullbanner img{
+    transition: transform 0.5s ease-out;
+}
+.right-fullbanner img{
+    transition: transform 0.5s ease-out;
+}
+.left-fullbanner img:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+.right-fullbanner img:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+.bg-fullbanner{
+    /* position: relative; */
+}
+.fullbanner-container{
+    margin-left: 6%;
+    position: absolute;
+    margin-top: -29%;
+}
+.left-fullbanner{
+    display: flex;
+}
+.right-fullbanner{
+    display: flex;
+}
+/* Full Banner End */
+
+
+/* Deal Of The Day Start */
+.top-deal{
+    background-color: #e7e7e7;
+    height: 30px;
+}
+.top-deal button{
+    padding: 7px;
+    letter-spacing: 1px;
+    background-color: #7fbb01;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    font-size: 13px;
+}
+.deal{
+    background-color: #f7f5f5;
+    margin: 2rem 3rem 2rem 3rem;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.100);
+}
+.deal-container{
+    padding: 3rem;
+    background-color: #ffffff;
+}
+.images-deal{
+    display: flex;
+}
+.images-deal img{
+    width: 99%;
+    margin-left: 2px;
+}
+.time{
+    display: flex;
+    justify-content: center;
+}
+.child-time{
+    background-color: #7fbb01;
+    color: #fff;
+    margin: 1px;
+    padding: 4px;
+}
+/* Deal Of The Day End */
