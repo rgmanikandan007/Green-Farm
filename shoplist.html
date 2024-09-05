@@ -1,11 +1,436 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop List</title>
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="css/shoplist.css">
+    <!-- FONT AWESOME ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- FONT FAMILY - "RUBIK" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    
+    <!-- Top Header Start -->
+    <div class="topheader">
+        <div class="topheader-container">
+            <div class="left-topheader">
+                <div>
+                    <h5>English <i class="fa-solid fa-sort-down"></i></h5>
+                </div>
+                <div>
+                    <h5>Dollar <i class="fa-solid fa-sort-down"></i></h5>
+                </div>
+            </div>
+            <div class="right-topheader">
+                <a href="">My Account</a>
+                <a href="">Whishlist</a>
+                <a href="">Checkout</a>
+            </div>
+        </div>
+    </div>
+    <!-- Top Header End -->
+
+    <!-- Navbar Start -->
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="left-logo">
+                <img src="images/logo.png" alt="nav-logo">
+            </div>
+            <div class="right-content">
+                <div class="top-navbar">
+                    <div class="phone">
+                        <div><i class="fa-solid fa-headphones-simple"></i></div>
+                        <div>
+                            <h4>Phone:</h4>
+                            <h5>1-888-123-456-83</h5>
+                        </div>
+                    </div>
+                    <div class="search">
+                        <div><input type="text" placeholder="Search your products..."></div>
+                    </div>
+                    <div class="shopcart">
+                        <div><i class="fa-solid fa-cart-shopping"></i></div>
+                        <div>
+                            <h4>Shopping Cart</h4>
+                            <h5>0 items - $0.00:</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-navbar">
+                    <nav>
+                        <a href="home.html">HOME</a>
+                        <div class="dropdown">
+                            <button class="dropbtn" style="font-size: 14px; cursor: pointer;">SHOP
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="shoplist.html">Shop List</a>
+                                <a href="shopproduct.html">Single Product</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn" style="font-size: 14px; cursor: pointer;">PAGES
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="myaccount.html">My Account</a>
+                                <a href="wishlist.html">Wishlist</a>
+                                <a href="checkout.html">Checkout</a>
+                                <a href="contact.html">Contact</a>
+                            </div>
+                        </div>
+                        <a href="contact.html">CONTACT</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Bredcrumbs Start -->
+    <div class="bredcrumbs">
+        <div class="bredcrumbs-container">
+            <div class="bredcrumbs-child">
+                <i class="fa-solid fa-home"></i>
+                <h5><a href="home.html">Home</a></h5>
+                <span>></span>
+                <h5><a href="shoplist.html" style="color: #7fbb01;">Shop</a></h5>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <!-- Bredcrumbs End -->
+
+
+    <!-- Banner Start -->
+    <div class="banner">
+        <div class="banner-container">
+            <img src="images/Shop-images/shop-banner.png" alt="img">
+        </div>
+    </div>
+    <!-- Banner End -->
+
+
+    <!-- Shop Images Start -->
+    <div class="shopimages">
+        <div class="shopimages-container">
+            <!-- (1) -->
+            <div class="shopimages-img">
+                <img src="images/Shop-images/product03 (1).png" alt="img">
+            </div>
+            <div class="shopimages-content">
+                <h5>Fast Foods, Vegetables</h5>
+                <h4>Ornare sed consequat nisl eget</h4>
+                <h3><del>$89.00</del> $80.00</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere esse tempora magnam <br> dolorem tenetur
+                    eos eligendi non temporibus qui enim. Lorem ipsum dolor sit amet <br> consectetur adipisicing elit.
+                    Ullam, magni.</p>
+                <div class="shopimages-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-angles-right"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- (2) -->
+        <div class="shopimages-container">
+            <div class="shopimages-img">
+                <img src="images/Shop-images/product04 (1).png" alt="img">
+            </div>
+            <div class="shopimages-content">
+                <h5>Fast Foods, Vegetables</h5>
+                <h4>Ornare sed consequat nisl eget</h4>
+                <h3><del>$89.00</del> $80.00</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere esse tempora magnam <br> dolorem tenetur
+                    eos eligendi non temporibus qui enim. Lorem ipsum dolor sit amet <br> consectetur adipisicing elit.
+                    Ullam, magni.</p>
+                <div class="shopimages-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-angles-right"></i>
+                </div>
+            </div>
+        </div>
+        <!-- (3) -->
+        <div class="shopimages-container">
+            <div class="shopimages-img">
+                <img src="images/Shop-images/product06.png" alt="img">
+            </div>
+            <div class="shopimages-content">
+                <h5>Fast Foods, Vegetables</h5>
+                <h4>Ornare sed consequat nisl eget</h4>
+                <h3><del>$89.00</del> $80.00</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere esse tempora magnam <br> dolorem tenetur
+                    eos eligendi non temporibus qui enim. Lorem ipsum dolor sit amet <br> consectetur adipisicing elit.
+                    Ullam, magni.</p>
+                <div class="shopimages-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-angles-right"></i>
+                </div>
+            </div>
+        </div>
+        <!-- (4) -->
+        <div class="shopimages-container">
+            <div class="shopimages-img">
+                <img src="images/Shop-images/product07.png" alt="img">
+            </div>
+            <div class="shopimages-content">
+                <h5>Fast Foods, Vegetables</h5>
+                <h4>Ornare sed consequat nisl eget</h4>
+                <h3><del>$89.00</del> $80.00</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere esse tempora magnam <br> dolorem tenetur
+                    eos eligendi non temporibus qui enim. Lorem ipsum dolor sit amet <br> consectetur adipisicing elit.
+                    Ullam, magni.</p>
+                <div class="shopimages-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-angles-right"></i>
+                </div>
+            </div>
+        </div>
+        <!-- (5) -->
+        <div class="shopimages-container">
+            <div class="shopimages-img">
+                <img src="images/Shop-images/product10.png" alt="img">
+            </div>
+            <div class="shopimages-content">
+                <h5>Fast Foods, Vegetables</h5>
+                <h4>Ornare sed consequat nisl eget</h4>
+                <h3><del>$89.00</del> $80.00</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere esse tempora magnam <br> dolorem tenetur
+                    eos eligendi non temporibus qui enim. Lorem ipsum dolor sit amet <br> consectetur adipisicing elit.
+                    Ullam, magni.</p>
+                <div class="shopimages-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-angles-right"></i>
+                </div>
+            </div>
+        </div>
+        <!-- (6) -->
+        <div class="shopimages-container">
+            <div class="shopimages-img">
+                <img src="images/Shop-images/product11.png" alt="img">
+            </div>
+            <div class="shopimages-content">
+                <h5>Fast Foods, Vegetables</h5>
+                <h4>Ornare sed consequat nisl eget</h4>
+                <h3><del>$89.00</del> $80.00</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere esse tempora magnam <br> dolorem tenetur
+                    eos eligendi non temporibus qui enim. Lorem ipsum dolor sit amet <br> consectetur adipisicing elit.
+                    Ullam, magni.</p>
+                <div class="shopimages-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-angles-right"></i>
+                </div>
+            </div>
+        </div>
+        <!-- (7) -->
+        <div class="shopimages-container">
+            <div class="shopimages-img">
+                <img src="images/Shop-images/product12.png" alt="img">
+            </div>
+            <div class="shopimages-content">
+                <h5>Fast Foods, Vegetables</h5>
+                <h4>Ornare sed consequat nisl eget</h4>
+                <h3><del>$89.00</del> $80.00</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere esse tempora magnam <br> dolorem tenetur
+                    eos eligendi non temporibus qui enim. Lorem ipsum dolor sit amet <br> consectetur adipisicing elit.
+                    Ullam, magni.</p>
+                <div class="shopimages-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-angles-right"></i>
+                </div>
+            </div>
+        </div>
+        <!-- (8) -->
+        <div class="shopimages-container">
+            <div class="shopimages-img">
+                <img src="images/Shop-images/product13.png" alt="img">
+            </div>
+            <div class="shopimages-content">
+                <h5>Fast Foods, Vegetables</h5>
+                <h4>Ornare sed consequat nisl eget</h4>
+                <h3><del>$89.00</del> $80.00</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere esse tempora magnam <br> dolorem tenetur
+                    eos eligendi non temporibus qui enim. Lorem ipsum dolor sit amet <br> consectetur adipisicing elit.
+                    Ullam, magni.</p>
+                <div class="shopimages-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-angles-right"></i>
+                </div>
+            </div>
+        </div>
+        <!-- (9) -->
+        <div class="shopimages-container">
+            <div class="shopimages-img">
+                <img src="images/Shop-images/product14.png" alt="img">
+            </div>
+            <div class="shopimages-content">
+                <h5>Fast Foods, Vegetables</h5>
+                <h4>Ornare sed consequat nisl eget</h4>
+                <h3><del>$89.00</del> $80.00</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere esse tempora magnam <br> dolorem tenetur
+                    eos eligendi non temporibus qui enim. Lorem ipsum dolor sit amet <br> consectetur adipisicing elit.
+                    Ullam, magni.</p>
+                <div class="shopimages-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-angles-right"></i>
+                </div>
+            </div>
+        </div>
+        <!-- (10) -->
+        <div class="shopimages-container">
+            <div class="shopimages-img">
+                <img src="images/Shop-images/product15.png" alt="img">
+            </div>
+            <div class="shopimages-content">
+                <h5>Fast Foods, Vegetables</h5>
+                <h4>Ornare sed consequat nisl eget</h4>
+                <h3><del>$89.00</del> $80.00</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere esse tempora magnam <br> dolorem tenetur
+                    eos eligendi non temporibus qui enim. Lorem ipsum dolor sit amet <br> consectetur adipisicing elit.
+                    Ullam, magni.</p>
+                <div class="shopimages-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-angles-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Shop Images End -->
+
+
+    <!-- Newsletter Start -->
+    <div class="newsletter">
+        <div class="newsletter-container">
+            <div class="head">
+                <i class="fa-regular fa-envelope"></i>
+                <h2>Send Newsletter</h2>
+            </div>
+            <div class="para">
+                <p>Sign up for our newsletter to get <br> up-to-date from us</p>
+            </div>
+            <div class="inputbox">
+                <input type="text" placeholder="Email Address">
+                <!-- <button type="submit">Submit</button> -->
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter End -->
+
+
+    <!-- Address Start -->
+    <div class="address">
+        <div class="address-container">
+            <div class="followus">
+                <h2>Follow Us</h2>
+                <div class="followus-icons">
+                    <i style="background-color: rgb(0, 162, 255); color: #fff;" class="fa-brands fa-facebook"></i>
+                    <i style="background-color: rgb(0, 110, 255); color: #fff;" class="fa-brands fa-twitter"></i>
+                    <i style="background-color: rgb(202, 83, 46); color: #fff;" class="fa-brands fa-instagram"></i>
+                    <i style="background-color: rgb(33, 133, 190); color: #fff;" class="fa-brands fa-linkedin"></i>
+                    <i style="background-color: rgb(10, 158, 97); color: #fff;" class="fa-brands fa-wifi"></i>
+                </div>
+            </div>
+            <div class="contactus">
+                <div class="contact-address">
+                    <div style="display: flex;"><i class="fa-solid fa-location-dot"></i>
+                        <p>Address: <br> 123 New Design Str, Melbourne, Australia</p>
+                    </div>
+                </div>
+                <div class="contact-phone">
+                    <div style="display: flex;"><i class="fa-solid fa-phone    t"></i>
+                        <p>Phone: <br> 123 New Design Str, Melbourne, Australia</p>
+                    </div>
+                </div>
+                <div class="contact-email">
+                    <div style="display: flex;"><i class="fa-solid fa-envelope"></i>
+                        <p>Address: <br> 123 New Design Str, Melbourne, Australia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- Address End -->
+
+
+    <!-- Footer Start -->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="child-footer">
+                <h3>INFORMATION</h3>
+                <ul>
+                    <li>About Us</li>
+                    <li>Delivery Information</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms & Condition</li>
+                </ul>
+            </div>
+            <div class="child-footer">
+                <h3>MY ACCOUNT</h3>
+                <ul>
+                    <li>My Account</li>
+                    <li>Wishlist</li>
+                    <li>Shopping Cart</li>
+                    <li>News Letter</li>
+                </ul>
+            </div>
+            <div class="child-footer">
+                <h3>CUSTOMER SERVICES</h3>
+                <ul>
+                    <li>Contact</li>
+                    <li>Our Services</li>
+                    <li>Returns</li>
+                    <li>Site Map</li>
+                </ul>
+            </div>
+            <div class="child-footer">
+                <h3>EXTRAS</h3>
+                <ul>
+                    <li>Brands</li>
+                    <li>Gift Vouchers</li>
+                    <li>Affliates</li>
+                    <li>Specials</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- Footer End -->
+
+
+    <!-- Policy Footer Start -->
+    <div class="policyfooter">
+        <div class="policyfooter-container">
+            <div class="policy-content">
+                <h4>Privacy Policy | Term and conditions</h4>
+                <p>© 2022 Greenfarm. All Rights Reserved</p>
+            </div>
+            <div class="payment">
+                <div>
+                    <p>Allow Payment base on :</p>
+                </div>
+                <div><img src="images/payment-icon.png" alt="img"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Policy Footer End -->
 </body>
+
 </html>
