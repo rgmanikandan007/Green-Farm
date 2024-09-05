@@ -338,10 +338,26 @@
     display: flex;
     justify-content: center;
 }
+.deal-content{
+    padding-bottom: 2rem;
+}
+.deal-content h4{
+    text-align: center;
+    margin-top: 13px;
+    font-weight: 400;
+}
 .child-time{
     background-color: #7fbb01;
     color: #fff;
     margin: 1px;
     padding: 4px;
 }
+.contents{
+    background-color: #ffffff;
+}
 /* Deal Of The Day End */
+
+
+
+/* Offer Start */
+/* Offer End */
