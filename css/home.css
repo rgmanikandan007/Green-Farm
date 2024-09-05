@@ -360,4 +360,80 @@
 
 
 /* Offer Start */
+.offer-container{
+    padding: 2rem 1rem 2rem 4rem;
+}
+.offer-images img{
+    margin-right: 1rem;
+}
 /* Offer End */
+
+
+/* Brand Starts */
+.brand{
+    background-color: #f7f5f5;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.100);
+}
+.brand-container{
+    padding: 3rem;
+}
+.brand-images{
+    padding: 1rem;
+    background-color: #ffffff;
+}
+.top-brand{
+    background-color: #e7e7e7;
+    height: 30px;
+}
+.brand-images img{
+    padding-left: 10px;
+}
+.brand-images img:hover{
+    transition: transform 0.5s ease-out;
+}
+.top-brand button{
+    padding: 7px;
+    letter-spacing: 1px;
+    background-color: #7fbb01;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    font-size: 13px;
+}
+/* Brand End */
+
+
+
+/* Newsletter Start */
+.newsletter{
+    background-color: #008459;
+    padding: 4rem;
+}
+.head{
+    display: flex;
+}
+.head h2{
+    color: #fff;
+}
+.head i{
+    color: #fff;
+    font-size: 30px;
+    margin-right: 15px;
+}
+.para p{
+    color: #fff;
+    margin-left: 15rem;
+}
+.newsletter-container{
+    display: flex;
+    justify-content: space-between;
+}
+.inputbox input{
+    padding: 10px 40px 10px 20px;
+    border-radius: 18px;
+    border: 1px solid #adadad;
+    width: 300px;
+    position: relative;
+}
+
+/* Newsletter End */
