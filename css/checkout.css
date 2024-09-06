@@ -142,7 +142,7 @@
     color: black;
 }
 .bredcrumbs hr{
-    margin-top: 1rem;
+    margin-top: 2rem;
     width: 95%;
     color: #646464;
 }
@@ -151,6 +151,96 @@
 
 
 /* Checkout Start */
+.checkout{
+    margin: 3rem;
+}
+.checkout-container{
+    padding: 1rem;
+    background-color: #ffffff;
+}
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #e4dfdf;
+    border-radius: 25px;
+    border: #afafaf 1px solid;
+}
+
+.form-group input[name="name"],
+.form-group input[name="email"] {
+    width: 38%;
+    margin-right: 4%;
+}
+
+.form-group input[name="email"] {
+    margin-right: 0;
+}
+
+.form-group textarea {
+    width: 80%;
+}
+
+.order-btn button[type="submit"] {
+    width: 30%;
+    padding: 10px;
+    background-color: #7fbb01;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.order-btn button[type="submit"]:hover {
+    background-color: #fff;
+    color: #7fbb01;
+    border: #7fbb01 1px solid;
+}
+
+.right-head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+.right-head h6{
+    font-size: 13px;
+}
+.checkout-container{
+    display: flex;
+}
+.left-checkout{
+    width: 100%;
+}
+.right-checkout{
+    width: 50%;
+}
+.first-child{
+    background-color: #e7e7e7;
+    padding: 1rem;
+    border-radius: 8px;
+}
+.first-child hr{
+    margin: 1rem;
+    width: 90%;
+}
+.second-child{
+    background-color: #e7e7e7;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+.right-bottom{
+    margin-bottom: 1rem;
+}
 /* Checkout End */
 
 
