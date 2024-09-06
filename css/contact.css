@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+/* Top Header Start */
+.topheader{
+    background-color: rgb(233, 233, 233);
+    padding: 1rem 6rem;
+}
+.left-topheader{
+    display: flex;
+}
+.topheader-container{
+    display: flex;
+    justify-content: space-between;
+}
+.left-topheader h5{
+    margin-right: 1rem;
+    color: rgb(66, 66, 66);
+}
+.right-topheader a{
+    margin-right: 1rem;
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    font-size: small;
+    font-weight: 600;
+}
+/* Top Header End */
+
+
+/* Navbar Start */
+.navbar{
+    padding: 1.5rem 6rem 1rem 6rem;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.100);
+}
+.search input{
+    padding: 10px 40px 10px 20px;
+    border-radius: 18px;
+    border: 1px solid #adadad;
+    width: 300px;
+}
+.top-navbar h4{
+    font-size: 17px;
+    margin-bottom: 0.4rem;
+    color: #646464;
+    font-weight: 300;
+}
+.top-navbar h5{
+    font-size: 13px;
+    color: #646464;
+    font-weight: 200;
+}
+.top-navbar i{
+    margin-right: 1rem;
+    font-size: 30px;
+    color: #999797;
+}
+.phone{
+    display: flex;
+    margin-right: 5rem;
+}
+.search{
+    margin-right: 5rem;
+}
+.shopcart{
+    display: flex;
+    margin-right: 1rem;
+}
+.top-navbar{
+    display: flex;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 768px){
+    .navbar{
+        display: none;
+    }
+}
+/* Nav Section */
+.bottom-navbar{
+    margin-top: 1.5rem;
+}
+.bottom-navbar nav a {
+    float: left;
+    display: block;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 13px; 
+    color: black;
+}
+.dropdown {
+    float: left;
+}
+.dropdown .dropbtn {
+    font-size: 12px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    cursor: pointer;
+}
+.dropdown-content a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 13px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #c7c7c7;
+}
+
+/* Navbar End */
+
+
+
+/* Bredcrumbs Start */
+.bredcrumbs{
+    padding-top: 2rem;
+    margin-left: 5rem;
+}
+.bredcrumbs-child{
+    display: flex;
+}
+.bredcrumbs-child i,h5,span{
+    margin-left: 1rem;
+}
+.bredcrumbs-child a{
+    text-decoration: none;
+    color: black;
+}
+.bredcrumbs hr{
+    margin-top: 1rem;
+    width: 95%;
+    color: #646464;
+}
+/* Bredcrumbs End */
+
+
+
+/* Map Start */
+.map{
+    margin: 3rem;
+}
+.map-container iframe{
+    width: 100%;
+    height: 350px;
+}
+/* Map End */
+
+
+/* Contact Us Start */
+.contact{
+    margin: 3rem;
+}
+.contact-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+.contact-info{
+    width: 40%;
+    padding: 2rem;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Contact Form Styling */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 3rem;
+    width: 60%;
+    padding: 2rem;
+}
+.info-section h3,p{
+    margin-bottom: 8px;
+}
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #7fbb01;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 20%;
+    margin-top: 1rem;
+}
+
+.contact-form button:hover {
+    background-color: #fff;
+    color: #7fbb01;
+    border: #7fbb01 1px solid;
+}
+
+/* Contact Info Sections */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info-section {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+.info-section h3 {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Contact Us End */
+
+
+/* Newsletter Start */
+.newsletter{
+    background-color: #008459;
+    padding: 4rem;
+}
+.head{
+    display: flex;
+}
+.head h2{
+    color: #fff;
+}
+.head i{
+    color: #fff;
+    font-size: 30px;
+    margin-right: 15px;
+}
+.para p{
+    color: #fff;
+    margin-left: 15rem;
+}
+.newsletter-container{
+    display: flex;
+    justify-content: space-between;
+}
+.inputbox input{
+    padding: 10px 40px 10px 20px;
+    border-radius: 18px;
+    border: 1px solid #adadad;
+    width: 300px;
+    position: relative;
+}
+/* Newsletter End */
+
+
+/* Address Start */
+.address{
+    padding: 3rem;
+}
+.followus{
+    width: 30%;
+}
+.followus h2{
+    margin-bottom: 1rem;
+    margin-left: 15px;
+}
+.followus-icons i{
+    margin-left: 10px;
+    padding: 8px;
+    border-radius: 50%;
+}
+.address-container{
+    display: flex;
+}
+.contactus{
+    display: flex;
+}
+.contact-address{
+    display: flex;
+    margin-left: 2rem;
+}
+.contact-phone{
+    margin-left: 2rem;
+}
+.contact-email{
+    margin-left: 3rem;
+}
+.contactus i{
+    font-size: 20px;
+    margin-right: 1rem;
+    color: #646464;
+}
+.address hr{
+    margin-top: 3rem;
+}
+/* Address End */
+
+
+/* Footer Start */
+.footer{
+    padding: 3rem;
+}
+.child-footer h3{
+    margin-bottom: 1rem;
+    color: #4b4a4a;
+}
+.child-footer ul li{
+    margin-bottom: 1rem;
+    list-style-type: none;
+    cursor: pointer;
+    color: #646464;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+/* Footer End */
+
+
+/* Policy Footer Start */
+.policyfooter{
+    padding: 3rem;
+}
+.policyfooter-container{
+    display: flex;
+    justify-content: space-between;
+}
+.policy-content h4{
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+.policy-content{
+    font-size: 14px;
+}
+.payment{
+    display: flex;
+}
+.payment p{
+    font-size: 14px;
+    margin-top: 15px;
+}
+/* Policy Footer End */
