@@ -148,54 +148,96 @@
 }
 /* Bredcrumbs End */
 
-/* Banner Start */
-.banner{
-    padding: 3rem;
-}
-.banner-container img{
-    width: 100%;
-}
-/* Banner End */
 
-/* Shop Images Start */
-.shopimages{
+/* Add Cart Start */
+.addcart{
     padding: 3rem;
     background-color: #f5f5f5;
-    cursor: pointer;
 }
-.shopimages-container{
+.addcart-container{
     display: flex;
     background-color: #fff;
     margin-bottom: 5px;
+    padding: 3rem;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.200);
 }
-.shopimages-img{
+.addcart-img{
     width: 50%;
 }
-.shopimages-content{
+.addcart-content{
     width: 70%;
-    margin-top: 4rem;
 }
-.shopimages-content h5{
+.addcart-content h2{
     margin-bottom: 1rem;
     margin-left: 0;
 }
-.shopimages-content h3,h4{
+.addcart-content h3,h4{
     margin-bottom: 1rem;
 }
-.shopimages-content p{
+.addcart-content p{
     line-height: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
 }
-.shopimages-icon i{
+.addcart-icon i{
     border: #7fbb01 1px solid;
     padding: 8px;
     background-color: #7fbb01;
     color: #fff;
     border-radius: 50%;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+.quantity-control {
+    display: flex;
+    align-items: center;
     margin-top: 1rem;
 }
-/* Shop Images End */
+.quantity-control button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+    font-size: 18px;
+}
+.quantity-control button:hover {
+    background-color: #ccc;
+}
+.quantity-input {
+    width: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+    margin: 0 10px;
+}
+.addcart-btn button{
+    padding: 10px 20px;
+    margin-top: 1.5rem;
+    border-radius: 30px;
+    border: none;
+    background-color: #7fbb01;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.wishlist{
+    display: flex;
+    margin-top: 2rem;
+}
+.wishlist h4{
+    margin-left: 0.5rem;
+}
+.addcart-content hr{
+    margin-top: 1rem;
+}
+.shareproduct i{
+    padding: 8px;
+    border-radius: 50%;
+}
+.shareproduct h3{
+    margin-top: 1rem;
+}
+/* Add Cart End */
 
 
 /* Newsletter Start */
